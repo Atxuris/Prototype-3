@@ -178,3 +178,13 @@ LightingData.asset     binary
 *.prefab linguist-documentation
 *.mat linguist-documentation
 *.cs linguist-detectable=true
+
+# Extensiones extra de Unity que confunden a Linguist
+*.inputactions linguist-documentation
+*.physicMaterial linguist-documentation
+*.physicsMaterial2D linguist-documentation
+*.controller linguist-documentation
+*.anim linguist-documentation
+*.uxml linguist-documentation
+*.uss linguist-documentation
+*.json linguist-documentation

@@ -923,12 +923,12 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 1
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: b6c28901-4ade-49cc-96a8-d07e7f6bdf00
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
+  projectName: Prototype 3
   organizationId: 
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

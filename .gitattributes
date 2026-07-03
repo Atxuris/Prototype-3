@@ -171,33 +171,11 @@ Packages/packages-lock.json linguist-generated
 LightingData.asset     binary
 
 
-# Reglas para corregir el lenguaje en GitHub
-*.meta linguist-documentation
-*.asset linguist-documentation
-*.unity linguist-documentation
-*.prefab linguist-documentation
-*.mat linguist-documentation
+# 1. Forzar a que C# y los Shaders de Unity se detecten como código real
 *.cs linguist-detectable=true
+*.shader linguist-detectable=true
+*.cginc linguist-detectable=true
 
-# Extensiones extra de Unity que confunden a Linguist
-*.inputactions linguist-documentation
-*.physicMaterial linguist-documentation
-*.physicsMaterial2D linguist-documentation
-*.controller linguist-documentation
-*.anim linguist-documentation
-*.uxml linguist-documentation
-*.uss linguist-documentation
-*.json linguist-documentation
+# 2. El botón rojo: Tratar ABSOLUTAMENTE TODO lo demás como documentación/metadatos
+* linguist-documentation
 
-# Ignorar carpetas completas de paquetes, plugins y librerías externas
-/[Pp]lugins/** linguist-documentation
-/[Pp]ackages/** linguist-documentation
-/[Pp]rojectSettings/** linguist-documentation
-/[Vv]ersionControl/** linguist-documentation
-/[Uu]nityPackageManager/** linguist-documentation
-
-# Ignorar archivos de texto, documentación y fuentes que sumen peso muerto
-*.md linguist-documentation
-*.txt linguist-documentation
-*.pdf linguist-documentation
-*.xml linguist-documentation

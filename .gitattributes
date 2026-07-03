@@ -1,3 +1,15 @@
+# Decirle a GitHub que ignore los metadatos y configuraciones de Unity en las estadísticas
+*.meta linguist-documentation
+*.asset linguist-documentation
+*.unity linguist-documentation
+*.prefab linguist-documentation
+*.mat linguist-documentation
+
+# Asegurar que C# sea el lenguaje principal del código
+*.cs linguist-detectable=true
+
+
+
 # Unity .gitattributes Template
 # Source: https://github.com/gitattributes/gitattributes/blob/master/Unity.gitattributes
 # Last synced: 2026-02-04

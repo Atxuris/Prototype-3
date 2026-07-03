@@ -188,3 +188,16 @@ LightingData.asset     binary
 *.uxml linguist-documentation
 *.uss linguist-documentation
 *.json linguist-documentation
+
+# Ignorar carpetas completas de paquetes, plugins y librerías externas
+/[Pp]lugins/** linguist-documentation
+/[Pp]ackages/** linguist-documentation
+/[Pp]rojectSettings/** linguist-documentation
+/[Vv]ersionControl/** linguist-documentation
+/[Uu]nityPackageManager/** linguist-documentation
+
+# Ignorar archivos de texto, documentación y fuentes que sumen peso muerto
+*.md linguist-documentation
+*.txt linguist-documentation
+*.pdf linguist-documentation
+*.xml linguist-documentation

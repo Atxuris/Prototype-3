@@ -171,11 +171,7 @@ Packages/packages-lock.json linguist-generated
 LightingData.asset     binary
 
 
-# 1. Forzar a que C# y los Shaders de Unity se detecten como código real
-*.cs linguist-detectable=true
-*.shader linguist-detectable=true
-*.cginc linguist-detectable=true
-
-# 2. El botón rojo: Tratar ABSOLUTAMENTE TODO lo demás como documentación/metadatos
 * linguist-documentation
+*.cs linguist-documentation=false
+*.shader linguist-documentation=false
 
